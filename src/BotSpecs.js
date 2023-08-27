@@ -24,6 +24,7 @@ function BotSpecs({ addBotToArmy }) {
     <div className="bot-specs">
       <h2>Bot Specs</h2>
       <div className="bot-details">
+        <img src={bot.avatar_url} alt={bot.name} />
         <h3>Name: {bot.name}</h3>
         <p>Class: {bot.bot_class}</p>
         <p>Health: {bot.health}</p>

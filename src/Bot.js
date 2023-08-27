@@ -8,11 +8,8 @@ function Bot({ bot, addBotToArmy, releaseBotFromArmy, dischargeBotForever }) {
       <h3>{bot.name}</h3>
       <p>Class: {bot.bot_class}</p>
       <p>Health: {bot.health}</p>
-      <p>Damage: {bot.damage}</p>
-      <p>Armor: {bot.armor}</p>
-      <p>Catchphrase: {bot.catchphrase}</p>
-      <p>Created At: {new Date(bot.created_at).toLocaleString()}</p> // Format and display the created_at date
-      <p>Updated At: {new Date(bot.updated_at).toLocaleString()}</p> // Format and display the updated_at date
+     
+      
 
       {/* Render buttons conditionally based on the passed props */}
       {addBotToArmy && <button onClick={() => addBotToArmy(bot)}>Add to Army</button>}
