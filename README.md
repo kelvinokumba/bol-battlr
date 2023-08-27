@@ -1,5 +1,5 @@
 **Here is the link to my deployed project with vercel:**
-bot-battlr-murex.vercel.app
+[bot-battlr-murex.vercel.app](https://bot-battlr-murex.vercel.app/)
 
 # Getting Started with Create React App
 
