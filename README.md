@@ -12,7 +12,7 @@ To get started with Bot Army Manager, follow these steps:
 
 
 
-git clone <repository-url>
+git clone git@github.com:SirVicmas/bot-battlr-code-challenge.git
 Navigate to the project directory:
 
 cd botbattlr
