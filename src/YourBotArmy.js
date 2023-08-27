@@ -1,13 +1,13 @@
-// YourBotArmy.js
 import React from 'react';
-import Bot from './Bot';
-import { Outlet } from 'react-router-dom';
+import Bot from './Bot'; // Import the Bot component
+import { Outlet } from 'react-router-dom'; // Import Outlet from react-router-dom to handle nested routes
 
 function YourBotArmy({ botArmy, releaseBotFromArmy, dischargeBotForever }) {
   return (
     <div className="your-bot-army">
       <h2>Your Bot Army</h2>
       <div className="bot-list">
+        {/* Map over the 'botArmy' array to render individual Bot components */}
         {botArmy.map((bot) => (
           <Bot
             key={bot.id}
@@ -18,7 +18,8 @@ function YourBotArmy({ botArmy, releaseBotFromArmy, dischargeBotForever }) {
         ))}
       </div>
 
-      <Outlet /> {/* This is where nested routes will be rendered */}
+      {/* Render the nested route's content using Outlet */}
+      <Outlet /> 
     </div>
   );
 }
