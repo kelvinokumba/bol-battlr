@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom'; // Use BrowserRouter
 import BotCollection from './BotCollection';
 import YourBotArmy from './YourBotArmy';
+import BotSpecs from './BotSpecs';
 import './App.css';
 
 function App() {
@@ -57,6 +58,15 @@ function App() {
         <Routes>
           <Route path="/" element={<BotCollection bots={bots} addBotToArmy={addBotToArmy} />} />
           <Route path="/army" element={<YourBotArmy botArmy={botArmy} releaseBotFromArmy={releaseBotFromArmy} dischargeBotForever={dischargeBotForever} />} />
+          <Route
+            path="/bot/:id" // Use the route parameter :id
+            element={
+              <BotSpecs
+                botArmy={botArmy}
+                addBotToArmy={addBotToArmy}
+              />
+            }
+          />
         </Routes>
       </div>
     
