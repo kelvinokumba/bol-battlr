@@ -1,6 +1,6 @@
 // Import React and necessary components and styles
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom'; // Use BrowserRouter
+import { BrowserRouter as  Link, Route, Routes } from 'react-router-dom'; // Use BrowserRouter
 import BotCollection from './BotCollection';
 import YourBotArmy from './YourBotArmy';
 import BotSpecs from './BotSpecs';
@@ -13,7 +13,7 @@ function App() {
 
   // Fetch bot data from the server when the component mounts using useEffect
   useEffect(() => {
-    fetch('https://bot-battlr-back-end.onrender.com')
+    fetch('https://botbattlr-xi41.onrender.com/bots')
       .then((response) => response.json())
       .then((data) => setBots(data))
       .catch((error) => console.error('Error fetching data:', error));
@@ -34,7 +34,7 @@ function App() {
 
   // Define a function to discharge a bot forever by making a DELETE request to the server
   const dischargeBotForever = (bot) => {
-    fetch(`https://bot-battlr-back-end.onrender.com/${bot.id}`, {
+    fetch(`https://botbattlr-xi41.onrender.com/bots/${bot.id}`, {
       method: 'DELETE',
     })
       .then(() => {
