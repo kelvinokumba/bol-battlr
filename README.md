@@ -1,6 +1,9 @@
 **Here is the link to my deployed project with vercel:**
 [bot-battlr-murex.vercel.app](https://bot-battlr-murex.vercel.app/)
 
+**Here is the link to my deployed back-end**
+https://botbattlr-xi41.onrender.com/bots
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
