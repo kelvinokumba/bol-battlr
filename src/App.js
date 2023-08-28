@@ -13,7 +13,7 @@ function App() {
 
   // Fetch bot data from the server when the component mounts using useEffect
   useEffect(() => {
-    fetch('http://localhost:8001/bots')
+    fetch('https://bot-battlr-back-end.onrender.com')
       .then((response) => response.json())
       .then((data) => setBots(data))
       .catch((error) => console.error('Error fetching data:', error));
@@ -34,7 +34,7 @@ function App() {
 
   // Define a function to discharge a bot forever by making a DELETE request to the server
   const dischargeBotForever = (bot) => {
-    fetch(`http://localhost:8001/bots/${bot.id}`, {
+    fetch(`https://bot-battlr-back-end.onrender.com/${bot.id}`, {
       method: 'DELETE',
     })
       .then(() => {
