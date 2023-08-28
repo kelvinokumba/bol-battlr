@@ -9,7 +9,7 @@ function BotSpecs({ addBotToArmy }) {
   
     useEffect(() => {
       // Fetch bot data based on the id parameter
-      fetch(`http://localhost:8001/bots/${id}`)
+      fetch(`https://bot-battlr-back-end.onrender.com/${id}`)
         .then((response) => response.json())
         .then((data) => setBot(data))
         .catch((error) => console.error('Error fetching bot data:', error));
