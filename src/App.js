@@ -1,6 +1,6 @@
 // Import React and necessary components and styles
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as  Link, Route, Routes } from 'react-router-dom'; // Use BrowserRouter
+import {   Link, Route, Routes } from 'react-router-dom'; // Use BrowserRouter
 import BotCollection from './BotCollection';
 import YourBotArmy from './YourBotArmy';
 import BotSpecs from './BotSpecs';
