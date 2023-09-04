@@ -9,14 +9,13 @@ https://botbattlr-xi41.onrender.com/bots
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 **BotBattlr**
-BotBattlr is a React web application that allows you to build and manage your own bot army. You can browse a collection of available bots, enlist them into your army, release them, and even discharge them permanently. This project demonstrates the use of React, React Router, and data fetching from a server.
+BotBattlr is a React web application that agit remote add origin git@github.com:kelvinokumba/bol-battlr.git
+llows you to build and manage your own bot army. You can browse a collection of available bots, enlist them into your army, release them, and even discharge them permanently. This project demonstrates the use of React, React Router, and data fetching from a server.
 
 **Getting Started**
 To get started with Bot Army Manager, follow these steps:
 
 **Clone the repository to your local machine:**
-
-
 
 git clone git@github.com:SirVicmas/bot-battlr-code-challenge.git
 Navigate to the project directory:
@@ -77,10 +76,7 @@ Push your changes to your fork: git push origin feature-name.
 Create a pull request to the original repository.
 
 **Author**
-This project is written by VICTOR MASIBO.
+This project is written by Kelvin Okumba.
 
 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
