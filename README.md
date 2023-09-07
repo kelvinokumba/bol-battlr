@@ -11,8 +11,6 @@ llows you to build and manage your own bot army. You can browse a collection of 
 To get started with Bot Army Manager, follow these steps:
 
 **Clone the repository to your local machine:**
-
-git clone git@github.com:SirVicmas/bot-battlr-code-challenge.git
 Navigate to the project directory:
 
 cd botbattlr
